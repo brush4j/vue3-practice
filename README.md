@@ -31,3 +31,6 @@ npm run dev
 ```sh
 npm run build
 ```
+
+# 目录结构
+drawio目录绘制了部分原理草图
