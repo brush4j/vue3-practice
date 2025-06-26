@@ -15,4 +15,4 @@ app.use(router)
 // 挂载应用
 app.mount('#app')
 
-//remote
+//me
