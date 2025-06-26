@@ -14,5 +14,3 @@ app.use(pinia)
 app.use(router)
 // 挂载应用
 app.mount('#app')
-
-//github incoming
