@@ -2,7 +2,7 @@
   <!-- 务必看懂下面这一行代码 -->
   <!-- <h2 a="1+1" :b="1+1" c="x" :d="x" ref="qwe">测试</h2> -->
   
-  <Person a="哈哈" />
+  <Person a="哈哈" @select="handleSelect" :list="personList"/>
 </template>
 
 <script lang="ts" setup name="App">
@@ -17,5 +17,10 @@
     {id:'asudfysafd02',name:'李四',age:20},
     {id:'asudfysaf)d03',name:'王五',age:22}
   ])
+
+  function handleSelect(person: { id: string; name: string; age: number }) {
+  // 这里可以处理选中的person
+  console.log('选中：', person)
+}
 
 </script>
