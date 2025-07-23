@@ -18,6 +18,8 @@
     {id:'asudfysaf)d03',name:'王五',age:22}
   ])
 
+  // personList.splice(1, 0, {id:'asudfysafd04',name:'赵六',age:25})
+
   function handleSelect(person: { id: string; name: string; age: number }) {
   // 这里可以处理选中的person
   console.log('选中：', person)
