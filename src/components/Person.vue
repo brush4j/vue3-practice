@@ -34,7 +34,14 @@
   const emit = defineEmits<{
     (e: 'select', person: { id: string; name: string; age: number }): void
   }>()
+  
+  let list = ['a', 'b', 'c']
 
+  const b = list.some((item) => {
+    console.log(item)
+    return item === 'b'
+  })
+  console.log('是否存在b:', b)
 
 
 </script>
