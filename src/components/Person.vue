@@ -30,6 +30,8 @@
 
   console.log('收到的list:', props.list)
 
+  debugger;
+
     // 定义emit
   const emit = defineEmits<{
     (e: 'select', person: { id: string; name: string; age: number }): void
